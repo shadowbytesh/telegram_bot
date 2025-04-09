@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: python-echo-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: 7945623788:AAFCdKDVxVM4RiYVog9YJd2Oo7P7T0Yvmig
+        sync: false
